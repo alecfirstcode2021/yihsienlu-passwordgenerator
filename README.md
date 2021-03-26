@@ -4,7 +4,7 @@
 * This assignment use of Javascript to generate a random, secure password for the user.
 * Using HTML and CSS and Javascript create a random password generator
 
-* [GitHub Repository] (https://alecfirstcode2021.github.io/-yihsienlu-passwordgenerator/)
+* [GitHub Repository] (https://alecfirstcode2021.github.io/yihsienlu-passwordgenerator/)
 
 ### Features of the assignment:
 
