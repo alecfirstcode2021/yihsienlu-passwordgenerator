@@ -1,0 +1,123 @@
+/* Yihsien Lu Homework-3 Password Generator */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+body {
+  background-color: #faffd0;
+  margin: 0 auto;
+}
+
+#wrapper {
+  background-color: rgb(238, 217, 28);
+  margin-left: 13%;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  margin-top: 2rem;
+  width: 60rem;
+}
+
+#content {
+  margin-right: 15%;
+  margin-left: 15%;
+  background-color: #165399;
+}
+
+h1 {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+textarea {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.8em;
+  width: 50%;
+  margin-left: 25%;
+
+}
+
+#btn {
+  margin-top: 1rem;
+}
+
+#buttonG {
+  background-color: #f3c80b;
+  color: red;
+    font-size: 1rem;
+    padding: 0.6rem 2rem;
+    border-radius: 0.8rem;
+    margin-left: 20%;
+    margin-bottom: 0.3rem;
+}
+
+#buttoncopy {
+  background-color: #e7e7e7;
+  font-size: 1rem;
+    padding: 0.6rem 2rem;
+    border-radius: 0.8rem;
+    margin-left: 5%;
+    margin-bottom: 0.3rem;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+      max-width: 992px;
+  }   
+  #wrapper {
+      width: 100%;
+      }
+}
+
+@media screen and (max-width: 772px) {
+  body {
+      max-width: 772px;
+  } 
+  
+  #wrapper {
+      width: 100%;
+      }
+
+#buttonG {
+  
+  margin-left: 10%;
+  margin-bottom: 10px;
+}
+
+
+  }
+ 
+  @media screen and (max-width: 640px) {
+  
+   body {
+      max-width: 640px;
+  } 
+  
+   #wrapper {
+      width: 100%;
+      }
+      #btn {
+          margin-top: 1rem;
+      }
+  
+      #buttonG {
+          margin-left: 22%;
+          
+      }
+
+      #buttoncopy {
+          margin-left: 22%;
+          
+      }
+  
+  }
